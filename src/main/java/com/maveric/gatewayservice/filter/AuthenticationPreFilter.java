@@ -3,10 +3,8 @@ package com.maveric.gatewayservice.filter;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-//import com.maveric.gatewayservice.constant.ErrorMessageConstant;
-//import com.maveric.gatewayservice.model.ExceptionResponseModel;
-import com.maveric.gatewayservice.Model.ExceptionResponseModel;
 import com.maveric.gatewayservice.constants.ErrorMessageConstant;
+import com.maveric.gatewayservice.Model.ExceptionResponseModel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
