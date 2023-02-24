@@ -8,7 +8,11 @@ import org.springframework.stereotype.Component;
 @Getter
 @Setter
 @Component
+
 @ConfigurationProperties("authentication-authorization-service")
+
+
+
 public class AuthProperties {
     private String path;
 
